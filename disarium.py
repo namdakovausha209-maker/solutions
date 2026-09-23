@@ -5,4 +5,3 @@ def is_disarium(num):
         result += int(digit) ** pos
     return result == num
 
-print(is_disarium(135))
