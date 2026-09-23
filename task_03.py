@@ -1,7 +1,6 @@
 def is_divisor(a, b):
-    if a % b == 0:
-        print('True')
-    else:
-        print('False')
+    if a == 0:
+        return False
+    return b % a == 0
 
 
