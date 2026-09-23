@@ -6,4 +6,3 @@ def is_power_of_two(n):
     log_result = math.log2(n)
     return log_result == int(log_result)
 
-print(is_power_of_two(1000))
