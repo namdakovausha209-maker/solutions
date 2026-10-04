@@ -1,5 +1,5 @@
 def meters_to_centimeters(meters):
-    a = float(meters)
-    return a * 100
+    a = meters * 100
+    return a 
 
 
