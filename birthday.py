@@ -27,5 +27,3 @@ def simulate_birthday(people, trials):
         if len(set(birthdays)) < len(birthdays):
             hits += 1
     return hits/trials
-
-print(simulate_birthday(23,10000))
