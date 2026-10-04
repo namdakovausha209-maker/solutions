@@ -1,3 +1,3 @@
 def echo_number(number):
-    return (f'Thats the number you entered - {number}')
+    return (f'Thats the number you entered {number}')
 
