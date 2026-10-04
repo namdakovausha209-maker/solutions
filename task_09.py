@@ -1,4 +1,7 @@
 def max_of_three(a, b, c):
-    list = [a,b,c]
-    return max(list)
+    if a >= b and a >= c:
+        return a
+    if b >= c:
+        return b
+    return c
 
